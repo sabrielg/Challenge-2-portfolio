@@ -6,7 +6,7 @@
 
 body {
 color: #373F47;
-font-family: Helvetica, Arial, sans-serif;
+font-family: Zen Antique, Arial, sans-serif;
 }
 
 header {
@@ -61,7 +61,7 @@ header nav ul li a{
 .footer h2 {
     color: #373F47;
     font-size: 30px;
-    margin: 0;
+    margin: 20px;
 }
 
 .hero {
@@ -71,21 +71,22 @@ header nav ul li a{
 .statement-img {
 flex: 1 12%;
 margin-right: 20px;
-justify-content: right;
+align-items: flex-end;
 padding: 20px 50px 20px 50px;
 }
 
 .statement-img img {
-    max-height: 50%;
-    max-width: 40%;
+    max-height: 500px;
+    max-width: 500px;
 }
 
 .statement {
     font-size: 64px;
-    line-height: 2.0;
-    margin: 20px auto;
-    padding: 20px 50px 20px 50px;
+    line-height: 1.0;
+    padding: 0 20px;
+    display: flex;
     flex-wrap: wrap;
+    width: 80px;
 }
 
 .about {
@@ -93,9 +94,11 @@ padding: 20px 50px 20px 50px;
 }
 .intro {
     font-size: 32px;
+    font-weight: heavy;
     line-height: 1.5;
-    margin: auto 70px;
+    margin: auto;
     background-color: #F4D58D;
+    text-align: center;
 }
 
 .intro nav ul li {
@@ -119,6 +122,7 @@ padding: 20px 50px 20px 50px;
 
 .project img {
     width: 100%;
+    height: 700px;
     overflow: auto;
 }
 
@@ -152,4 +156,13 @@ padding: 20px 50px 20px 50px;
 
 .project-info p {
     font-size: 17px;
+}
+
+.section-title {
+    font-size: 48px;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
