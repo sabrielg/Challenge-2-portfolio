@@ -53,31 +53,37 @@ header nav ul li a{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #4B7F52;
+    background-image: url(./assets/images/pngkey.com-pattern-png-transparent-503086.png);
     width: 100%;
     padding: 40px 35px;
+    margin: 20px;
+    background-color: #F4D58D;
 }
 
 .footer h2 {
     color: #373F47;
     font-size: 30px;
-    margin: 20px;
+    margin: 50px;
 }
 
 .hero {
     background-color: #F4D58D ;
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-around;
 }
 
 .statement-img {
-flex: 1 12%;
+flex: 1 22%;
 margin-right: 20px;
-align-items: flex-end;
+align-items: right;
 padding: 20px 50px 20px 50px;
 }
 
 .statement-img img {
     max-height: 500px;
     max-width: 500px;
+    align-items: right;
 }
 
 .statement {
@@ -165,4 +171,11 @@ padding: 20px 50px 20px 50px;
     text-align: center;
     margin: 0 auto 35px auto;
     width: 50%;
+}
+
+.get-in-touch {
+    background-color: #F4D58D;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
 }
