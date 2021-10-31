@@ -5,13 +5,13 @@
 }
 
 body {
-color: #402A2C;
+color: #373F47;
 font-family: Helvetica, Arial, sans-serif;
 }
 
 header {
     padding: 20px 35px;
-    background-color: #D78A76;
+    background-color: #F4D58D;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -23,7 +23,7 @@ header {
 header h1 a{
     font-weight: bold;
     font-size: 36px;
-    color: #402A2C;
+    color: #373F47;
     margin: 0;
     text-decoration: none;
     text-shadow: 0 0 10px rgba (0, 0, 0, 0.8);
@@ -46,12 +46,12 @@ header nav ul li a{
     font-weight: lighter;
     font-size: 1.55vw;
     text-decoration: none;
-    color: #402A2C;
+    color: #373F47;
 }
 
 .footer {
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     background-color: #4B7F52;
     width: 100%;
@@ -59,13 +59,13 @@ header nav ul li a{
 }
 
 .footer h2 {
-    color: #402A2C;
+    color: #373F47;
     font-size: 30px;
     margin: 0;
 }
 
 .hero {
-    background-color: #FFFCE8 ;
+    background-color: #F4D58D ;
 }
 
 .statement-img {
@@ -89,12 +89,67 @@ padding: 20px 50px 20px 50px;
 }
 
 .about {
-    color: #FFFCE8;
+    color: #F4D58D;
 }
 .intro {
     font-size: 32px;
     line-height: 1.5;
     margin: auto 70px;
-    background-color: #FFFCE8;
+    background-color: #F4D58D;
 }
 
+.intro nav ul li {
+    list-style: none;
+}
+
+.projects {
+    width: 100%;
+    margin-right: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    margin: 20px;
+    background: #F4D58D;
+    color: #373F47;
+    flex: 1;
+}
+
+.project img {
+    width: 100%;
+    overflow: auto;
+}
+
+.project-info {
+    padding: 25px;
+    overflow: auto;
+    line-height: 1.3;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.project-info h3 {
+    font-size: 28px;
+}
+
+.project-info h4 {
+    font-weight: lighter;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.project-info p {
+    font-size: 17px;
+}
