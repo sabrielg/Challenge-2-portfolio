@@ -49,35 +49,31 @@ header nav ul li a{
     color: #373F47;
 }
 
-.footer {
+footer {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    background-image: url(./assets/images/pngkey.com-pattern-png-transparent-503086.png);
     width: 100%;
-    padding: 40px 35px;
-    margin: 20px;
+    padding: 5px 10px;
     background-color: #F4D58D;
 }
 
-.footer h2 {
+footer h2 {
     color: #373F47;
-    font-size: 30px;
+    font-size: 20px;
     margin: 50px;
 }
 
 .hero {
     background-color: #F4D58D ;
     display: flex;
-    border: 1px solid red;
     justify-content: space-around;
 }
 
 .statement-img {
-flex: 1 22%;
 margin-right: 20px;
 align-items: right;
-padding: 20px 50px 20px 50px;
+padding: 50px 50px 50px 50px;
 }
 
 .statement-img img {
@@ -97,6 +93,7 @@ padding: 20px 50px 20px 50px;
 
 .about {
     color: #F4D58D;
+    list-style: none;
 }
 .intro {
     font-size: 32px;
@@ -105,9 +102,11 @@ padding: 20px 50px 20px 50px;
     margin: auto;
     background-color: #F4D58D;
     text-align: center;
+    padding: 50px;
+    list-style: none;
 }
 
-.intro nav ul li {
+intro nav ul li {
     list-style: none;
 }
 
@@ -178,4 +177,5 @@ padding: 20px 50px 20px 50px;
     text-align: center;
     font-size: 18px;
     font-weight: bold;
+    padding-bottom: 50px;
 }
