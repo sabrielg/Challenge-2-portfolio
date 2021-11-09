@@ -10,5 +10,8 @@ A personal website showcasing a variety of projects and recent work.
 ## Website
 https://sabrielg.github.io/Challenge-2-portfolio/
 
+## Screenshot
+![alt text](assets/images/portfolio1.jpg)
+
 ## Contribution
 Made with ❤️ by Sabriel Gee
